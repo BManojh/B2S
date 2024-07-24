@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Reservation Form</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="container mt-5">
+    <h2>Restaurant Reservation</h2>
+    <form>
+      <div class="form-group">
+        <label for="fullName">Full Name</label>
+        <input type="text" class="form-control" id="fullName" placeholder="Enter your full name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email address</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+      </div>
+      <div class="form-group">
+        <label for="phone">Phone Number</label>
+        <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number" required>
+      </div>
+      <div class="form-group">
+        <label for="date">Date</label>
+        <input type="date" class="form-control" id="date" required>
+      </div>
+      <div class="form-group">
+        <label for="time">Time</label>
+        <input type="time" class="form-control" id="time" required>
+      </div>
+      <div class="form-group">
+        <label for="guests">Number of Guests</label>
+        <input type="number" class="form-control" id="guests" placeholder="Enter the number of guests" required>
+      </div>
+      <div class="form-group">
+        <label for="specialRequests">Special Requests</label>
+        <textarea class="form-control" id="specialRequests" rows="3" placeholder="Any special requests"></textarea>
+      </div>
+<div class="form-group">
+      <label><h2>Menu selection</h2></label></br>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="burger" id="burger">
+        <label class="form-check-label" for="burger">
+          Burger
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="pizza" id="pizza">
+        <label class="form-check-label" for="pizza">
+          Pizza
+        </label>
+      </div>
+<div class="form-check">
+<input class="form-check-input" type="checkbox" value="briyani"id="briyani">
+<label class="form-check-label" for="briyani">Briyani</label>
+    </div>
+<div class="form-group">
+      <label><h2>Location:</h2></label></br>
+      <div class="form-check-inline">
+        <input class="form-check-input" type="radio" name="location" id="location" value="location">
+        <label class="form-check-label" for="Madurai">Madurai</label>
+      </div>
+      <div class="form-check-inline">
+        <input class="form-check-input" type="radio" name="location" id="location" value="location">
+        <label class="form-check-label" for="Chennai">Chennai</label>
+      </div>
+     <div class="form-check-inline">
+<input class="form-check-input" type="radio" name="location" id="location" value="location">
+<label class="form-check-label" for="trichy">Trichy</label>
+    </div>
+
+
+<h4>Payment Details:</h4>
+    <div class="form-group">
+      <label for="card_number">Card Number:</label>
+      <input type="text" class="form-control" id="card_number" name="card_number" required>
+    </div>
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label for="expiry_date">Expiry Date:</label>
+        <input type="text" class="form-control" id="expiry_date" name="expiry_date" placeholder="MM/YY" required>
+      </div>
+      <div class="form-group col-md-6">
+        <label for="cvv">CVV:</label>
+        <input type="text" class="form-control" id="cvv" name="cvv" required>
+      </div>
+    </div>
+ 
+<button type="submit" class="btn btn-primary">Make Reservation</button>
+</forms>
+</div>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

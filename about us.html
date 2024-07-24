@@ -1,0 +1,92 @@
+<html>
+<head>
+<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+<style>
+
+#about{
+  width: 100%;
+  height: 100vh;
+  background: #f7f5f2;
+  font-family: 'Roboto', sans-serif;
+}
+#about .container{
+  padding-top: 70px;
+}
+.heading{
+  text-align: center;
+  margin-bottom: 50px;
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+}
+.heading span{
+  color: #b2744c;
+}
+#about .card{
+  border-radius: 10px;
+}
+#about .card img{
+  border-radius: 10px;
+}
+#about-btn{
+  width: 200px;
+  height: 36px;
+  background: transparent;
+  border: 2px solid #b2744c;
+  color: #b2744c;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: 0.5s;
+  cursor: pointer;
+}
+#about-btn:hover{
+  background: #b2744c;
+  color: white;
+}
+@media screen and (max-width:982px){
+  #about p{
+    font-size: 8px;
+  }
+}
+@media screen and (max-width:766px){
+  #about p{
+    font-size: 15px;
+  }
+  #about{
+    height: 120vh;
+  }
+}
+</style>
+<body>
+
+<!-- about section -->
+<div class="about" id="about">
+  <div class="container">
+  <div class="heading">About <span>Us</span></div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <img src="manojh.jpg" weight="500" height="280">
+        </div>
+      </div>
+      <div class="col-md-6">
+        <h3>What Makes Our Restaurant Special?</h3>
+        
+            <p>Welcome to B2S. We are passionate about serving delicious meals and providing a memorable dining experience for our guests.</p>
+            <p>At B2S Restaurant  we focus on using fresh, locally sourced ingredients to create mouthwatering dishes that satisfy your cravings.</p>
+            <p>Our team of talented chefs and friendly staff is dedicated to ensuring that every visit to our restaurant is filled with great food, excellent service, and a welcoming atmosphere.</p>
+            <p>Whether you're joining us for a casual lunch, a romantic dinner, or a special celebration, we aim to exceed your expectations and leave you eager to return.</p>
+            <p>Come dine with us and explore our diverse menu crafted with love and attention to detail.</p>
+         <button id="about-btn">Learn More.</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- about section -->
+</body>
+</html>
+
+
+   
